@@ -219,3 +219,13 @@ footer .bottom-footer p {
     font-size: 0.6rem;
     line-height: 1.4;
 }
+.inner-banner {
+    height: 331px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.inner-banner h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
