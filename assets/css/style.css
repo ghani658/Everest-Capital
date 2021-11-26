@@ -52,6 +52,16 @@ a:hover {
     color: inherit;
 }
 
+h1, h2, h3 ,h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+}
+
 .position-relative {
     position: relative;
 }
@@ -138,4 +148,74 @@ ul.nav-items {
 
 img.logo {
     max-width: 257px;
+}
+
+.team h1 {
+    color: #fff;
+    background: linear-gradient(180deg, rgb(5 23 37 / 0%) 18%, rgba(5,23,37,1) 52%);
+    margin-top: -118px;
+    position: relative;
+    padding: 55px 0 12px;
+    border-bottom: 10px solid #000;
+    font-size: 2.3rem;
+}
+.team-member {
+    background: #0b151f;
+}
+.member {
+    background: #efefef;
+    color: #022028;
+    position: relative;
+    height: calc(100% - 25px);
+    margin-bottom: 25px;
+}
+.member img.m-pic {
+    height: 218x;
+    object-fit: cover;
+}
+.member h5 {
+    font-weight: bold;
+}
+.detail-btn {
+    position: absolute;
+    bottom: 7px;
+    width: 100%;
+    left: 0;
+}
+.detail-btn a {
+    background: #002c35;
+    padding: 7px 7px 9px;
+    color: #fff;
+    line-height: 12px;
+    display: table;
+    margin: 0 auto;
+}
+.t-page {
+    background: #888483;
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+}
+.top-footer {
+    background: #010101;
+}
+footer p {
+    font-size: 0.7rem;
+    line-height: 1.2;
+}
+.top-footer input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    color: #000;
+    background: #fff;
+    outline: none;
+    font-weight: bold;
+}
+.bottom-footer {
+    background: #264156;
+}
+footer .bottom-footer p {
+    font-size: 0.6rem;
+    line-height: 1.4;
 }
