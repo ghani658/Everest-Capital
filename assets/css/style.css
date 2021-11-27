@@ -238,3 +238,6 @@ h2.bl-color {
     margin-bottom: 0;
     font-size: 0.7rem;
 }
+.sr-section .ic-img {
+    width: 60px;
+}
