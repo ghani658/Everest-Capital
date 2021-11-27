@@ -170,7 +170,7 @@ img.logo {
     margin-bottom: 25px;
 }
 .member img.m-pic {
-    height: 218x;
+    height: 243px;
     object-fit: cover;
 }
 .member h5 {
@@ -229,7 +229,7 @@ footer .bottom-footer p {
     font-size: 4rem;
     letter-spacing: 1px;
 }
-h2.bl-color {
+h2.bl-color, .bl-color {
     color: #1f2348;
 }
 .info-div ul {
@@ -240,4 +240,31 @@ h2.bl-color {
 }
 .sr-section .ic-img {
     width: 60px;
+}
+.contact-form label, .contact-form input {
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.btn-primary {
+    background-color: #1f4671 !important;
+    border-color: #1f4671 !important;
+}
+iframe {
+    width: 100%;
+}
+.pr-img {
+    border: 20px solid #263744;
+}
+.pr-info span {
+    font-size: 1.2rem;
+}
+.pr-info h1, .pr-info p.in-txt {
+    color: #1f4671;
+    font-weight: bold;
+}
+.pr-info h1 {
+    font-size: 2.7rem;
+}
+.pr-info p {
+    font-weight: bold;
 }
