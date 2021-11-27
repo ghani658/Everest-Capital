@@ -229,3 +229,12 @@ footer .bottom-footer p {
     font-size: 4rem;
     letter-spacing: 1px;
 }
+h2.bl-color {
+    color: #1f2348;
+}
+.info-div ul {
+    list-style: disc;
+    margin-left: 16px;
+    margin-bottom: 0;
+    font-size: 0.7rem;
+}
