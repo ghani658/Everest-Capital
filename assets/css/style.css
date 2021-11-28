@@ -268,3 +268,130 @@ iframe {
 .pr-info p {
     font-weight: bold;
 }
+.mobile-menu {
+    display: none;
+}
+@media (max-width: 991px) {
+    .nav-menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: block;
+    }    
+    .mobile-menu a.menu-icon {
+        background: #000000;
+        padding: 9px 15px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .mobile-menu ul {
+        position: absolute;
+        width: 275px;
+        right: 17px;
+        background: #0b151f;
+        top: 75px;
+        padding: 0;
+        display: none;
+        z-index: 100;
+        margin: 0;
+        padding-bottom: 36px;
+    }
+
+    .mobile-menu ul li {
+        float: left;
+        width: 100%;
+    }
+
+    .mobile-menu ul li a {
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 600;
+        font-size: 0.8rem;
+        padding: 10px;
+        width: 100%;
+        float: left;
+        line-height: normal;
+    }
+
+    .mobile-menu ul li a:hover {
+        background: #122055;
+        color: #fff;
+    }
+
+    .mobile-menu ul li a.call {
+        background: #122055;
+        border-radius: 12px;
+        border: 2px solid #122055;
+        color: #fff;
+        padding: 6px 11px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        float: left;
+        font-size: 16px;
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        border-radius: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mobile-menu a.cross {
+        position: absolute;
+        right: 7px;
+        z-index: 10;
+        top: 7px;
+        color: #fff;
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0.5rem 0rem;
+    }
+    img.logo {
+        max-width: 171px;
+    }
+    .mobile-menu a.menu-icon {
+        background: #000000;
+        padding: 4px 9px;
+        color: #ffffff;
+        font-size: 17px;
+    }
+    .slick-slide {
+        height: 300px !important;
+    }
+    .slider h1 {
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 27px;
+        margin-bottom: 18px;
+    }
+    .banner {
+        height: auto;
+    }
+    .slick-prev {
+        left: 6px;
+    }
+    .slick-next {
+        right: 25px;
+    }
+    .slick-prev:before, .slick-next:before {
+        font-size: 31px;
+    }
+    .member img.m-pic {
+        height: auto;
+    }
+    .top-footer .col-md-3, .top-footer .col-md-6 {
+        margin-bottom: 20px;
+    }
+    .inner-banner h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .mobile-menu ul {
+        right: 0;
+        top: 55px;
+    }
+}
